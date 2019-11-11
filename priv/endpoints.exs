@@ -1207,6 +1207,15 @@
             "us-west-2" => %{}
           }
         },
+        "textract" => %{
+          "endpoints" => %{
+            "eu-west-1" => %{},
+            "eu-west-2" => %{},
+            "us-east-1" => %{},
+            "us-east-2" => %{},
+            "us-west-2" => %{}
+          }
+        },
         "s3" => %{
           "defaults" => %{"protocols" => ["http", "https"], "signatureVersions" => ["s3v4"]},
           "endpoints" => %{
